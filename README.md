@@ -5,7 +5,7 @@
 ## Installing
 
 ```
-npm i random-generator
+npm i generate-random-number
 ```
 
 ## Dependencies
