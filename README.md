@@ -15,25 +15,17 @@ No dependencies
 ## Usage
 ### Generate random integer
 ```js
-    const GenerateRandom = require('./generate-random')
+    const Random = require('./generate-random')
 
-    const number = GenerateRandom.int() // 57
-    const numberBetweenTwoNumber = GenerateRandom.int(5, 600) // 430
-```
+    // int related
+    Random.int() // 57
+    Random.int(5, 600) // 430
 
-### Generate random float
-```js
-    const GenerateRandom = require('./generate-random')
+    // float related
+    Random.float() // 43.2
+    Random.float(5, 600) // 292.4
+    Random.float(5, 600, 4) // 438.9023
 
-    const float = GenerateRandom.float() // 43.2
-    const floatBetweenTwoNumber = GenerateRandom.float(5, 600) // 292.4
-    const floatBetweenTwoNumber = GenerateRandom.float(5, 600, 4) // 438.9023
-```
-
-### Generate random float
-```js
-    const GenerateRandom = require('./generate-random')
-
-    const float = GenerateRandom.float() // 43.2
-    const floatBetweenTwoNumber = GenerateRandom.boolean() // false
+    // boolean related
+    Random.boolean() // false
 ```
