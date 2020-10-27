@@ -17,7 +17,7 @@ No dependencies
 ## Usage
 ### Generate random integer
 ```js
-    const Random = require('./generate-random')
+    const Random = require('random-generate')
 
     // int related
     Random.int() // 57
