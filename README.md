@@ -1,5 +1,7 @@
 # random-generator: random data generator
 
+Generate random values, includes intenegers, floats and boolean values.
+
 **Note:** This is module will work in both client side and server side
 
 ## Installing
